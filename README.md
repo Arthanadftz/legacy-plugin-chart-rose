@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-rose
+## @arthanasti/legacy-plugin-chart-rose
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-rose.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-rose)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-rose&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-rose)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import RoseChartPlugin from '@superset-ui/legacy-plugin-chart-rose';
+import RoseChartPlugin from '@arthanasti/legacy-plugin-chart-rose';
 
 new RoseChartPlugin().configure({ key: 'rose' }).register();
 ```
